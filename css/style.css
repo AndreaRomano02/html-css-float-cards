@@ -32,6 +32,9 @@ section{
   margin: 50px 0;
 }
 
+.row{
+  margin: 0 -10px;
+}
 /* header */
 header{
   text-align: center;
