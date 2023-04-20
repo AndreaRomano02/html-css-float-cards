@@ -20,6 +20,15 @@ body{
   max-width: 1200px;
 }
 
+.card{
+  width: calc(100% / 3 - 20px);
+  height: 100px;
+  background-color: black;
+  float: left;
+  margin: 10px;
+}
+
+/* header */
 header{
   text-align: center;
 }
@@ -33,3 +42,5 @@ header h1{
 header p{
   font-size: 1.2rem;
 }
+
+/* main */
