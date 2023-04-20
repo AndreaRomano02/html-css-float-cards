@@ -8,6 +8,7 @@
 /* Global Vars */
 :root{
   --pink: #E53170;
+  --email: #5BB7DB;
 }
 
 /* General */
@@ -22,7 +23,6 @@ body{
 
 .card{
   width: calc(100% / 3 - 20px);
-  height: 100px;
   background-color: black;
   float: left;
   margin: 10px;
@@ -44,3 +44,33 @@ header p{
 }
 
 /* main */
+main{
+  color: white;
+}
+
+main img{
+  height: 100px;
+  float: left;
+}
+
+.card address{
+  padding: 15px 10px;
+  float: left;
+}
+
+address a{
+  text-decoration: none;
+  color: var(--email);
+}
+/* clearfix */
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.row::after{
+  content: '';
+  display: table;
+  clear: both;
+}
